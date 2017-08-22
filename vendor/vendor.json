@@ -1,0 +1,31 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "wP6b3CHYhF8ivc8qo314aDd9ZCk=",
+			"path": "github.com/corpix/uarand",
+			"revision": "031be390f409fb4bac8fb299e3bcd101479f89f8",
+			"revisionTime": "2017-07-23T15:09:23Z"
+		},
+		{
+			"checksumSHA1": "qt71KoGfs0dZ/GDaXFXmvFs54PQ=",
+			"path": "github.com/icrowley/fake",
+			"revision": "e64cc2cf92049a299f359734c6ea76073f2a8b2c",
+			"revisionTime": "2017-07-23T15:10:11Z"
+		},
+		{
+			"checksumSHA1": "rAORHnq1E6diyOGhE6XqBq5tibg=",
+			"path": "github.com/jinzhu/gorm",
+			"revision": "c3bb6aaa828867eec72dd8571d111e442688f85f",
+			"revisionTime": "2017-08-11T15:24:00Z"
+		},
+		{
+			"checksumSHA1": "tUQ1pHvWxAcPFmveZtlmCR9H4TY=",
+			"path": "github.com/jinzhu/inflection",
+			"revision": "1c35d901db3da928c72a72d8458480cc9ade058f",
+			"revisionTime": "2017-01-02T12:52:26Z"
+		}
+	],
+	"rootPath": "github.com/goblog"
+}

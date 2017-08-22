@@ -12,6 +12,7 @@ import (
 func init() {
 	rand.Seed(time.Now().UnixNano())
 }
+
 func UserFake() interface{} {
 
 	user := User{

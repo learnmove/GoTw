@@ -1,0 +1,6 @@
+package models
+
+type $model_name struct {
+	BaseModel
+	
+}

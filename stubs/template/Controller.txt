@@ -1,0 +1,49 @@
+package controllers
+
+import (
+	"github.com/gin-gonic/gin"
+	"github.com/yourproject/app/repositories"
+)
+
+type $controller_nameController struct {
+	BaseController
+//	$controller_nameRepository repositories.$controller_nameRepository
+
+}
+
+func (con $controller_nameController) init() {
+//	con.$controller_nameRepository = repositories.$controller_nameRepository{}
+
+}
+
+func (con $controller_nameController) Index(c *gin.Context) {
+
+//	c.JSON(200, gin.H{
+//		"data": con.$controller_nameRepository.Get$controller_name(),
+//	})
+}
+
+func (con $controller_nameController) Create(c *gin.Context) {
+
+
+}
+
+func (con $controller_nameController) Store(c *gin.Context) {
+
+
+}
+
+func (con $controller_nameController) Edit(c *gin.Context) {
+
+
+}
+
+func (con $controller_nameController) Update(c *gin.Context) {
+
+
+}
+
+func (con $controller_nameController) Destroy(c *gin.Context) {
+
+
+}

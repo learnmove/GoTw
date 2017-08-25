@@ -1,0 +1,15 @@
+package repositories
+
+import (
+	"github.com/yourproject/app/models"
+)
+
+type $repository_nameRepository struct{}
+
+func ($repository_nameRepository $repository_nameRepository) Get$repository_name() models.$repository_name {
+
+	$repository_names := models.$repository_name{}
+	
+	DB.Find(&$repository_names)
+	return $repository_names
+}

@@ -1,9 +1,7 @@
 package factory
 
 import (
-	. "github.com/goblog/app/models/article"
-	. "github.com/goblog/app/models/user"
-
+	. "github.com/goblog/app/models"
 	"github.com/icrowley/fake"
 	"math/rand"
 	"time"
@@ -28,5 +26,6 @@ func ArticleFake() interface{} {
 		Content: fake.Paragraph(),
 		UserID:  rand.Intn(10) + 1,
 	}
+
 	return &article
 }

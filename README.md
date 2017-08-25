@@ -5,6 +5,13 @@ repository
 model
 controller
 
+it use:
+ 1.govendor
+ 2.gin
+ 3.gorm
+ 4.fake
+ 
+
 your can do :
 
 go run tw.go -do make:model -name User
@@ -32,6 +39,10 @@ All you need to do:
 
 
 
+
+Demo Video
+1.GoTw How to make Migrate and Seed  https://www.youtube.com/watch?v=2DHL-e4Ih-c  
+2.GoTw How to make Repository Controller  https://www.youtube.com/watch?v=pMmYuSBpWoU
 
 
 
